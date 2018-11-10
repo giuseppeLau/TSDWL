@@ -1,0 +1,25 @@
+Tecniche di Programmazione Concorrente e Distribuita 4/10/2016 
+ 
+1. 
+ 
+A) Realizzare un server (in C o in Java) che si metta in ascolto sul port 3333 per ricevere  
+una stringa di lunghezza arbitraria di caratteri compresi nell’insieme {'V','F'}, terminata  
+dal carattere '\n'. Il server dovrà quindi stampare il messaggio ricevuto sullo standard  
+output. Testare il server usando telnet.  
+
+B) Modificare il server definito al punto precedente in modo tale che il messaggio  
+ricevuto, oltre ad essere stampato sullo standard output, venga inviato nuovamente al  
+client come risposta (senza nessuna modifica). Testare il server usando telnet. 
+
+C) Modificare il server definito al punto precedente in modo tale che il server passi il  
+messaggio ricevuto dal client ad un metodo  
+String AND(String str) che restituisce inalterata la stessa stringa argomento str. La stringa restituita dal  
+metodo AND() deve quindi essere inviata come messaggio di risposta al client. Testare il server usando telnet.  
+
+D) Modificare il server definito al punto precedente, ridefinendo il comportamento del  
+metodo AND(), che dovrà ora restituire la stringa "Vero" se la stringa è composta solo  
+da caratteri 'V', la string "Falso" altrimenti. Testare il server usando telnet. 
+
+E) (Opzionale) Realizzare un semplice client per testare i server creati ai punti precedenti. 
+ 
+Tempo a disposizione: 45 minuti. 

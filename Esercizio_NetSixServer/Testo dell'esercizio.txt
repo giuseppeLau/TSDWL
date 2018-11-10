@@ -1,10 +1,19 @@
 ESERCIZIO NETSIXSERVER
 
-Un noto distributore di contenuti video on­demand, N​etSix,​ è famoso a livello internazionale per essere l’unico a rendere disponibili ben ​6 serie tv,​ ognuna composta da un certo numero di ​episodi.​
+Un noto distributore di contenuti video on­demand, N​etSix,​ è famoso 
+a livello internazionale per essere l’unico a rendere disponibili ben ​6 serie tv,​ 
+ognuna composta da un certo numero di ​episodi.​
 
-Espone un servizio NetSixServer interrogabile tramite socket sulla porta ​3333, che risponde a messaggi nel formato "n​ome_serie,n” con cui un client può chiedere se è disponibile l’episodio ’n’ della serie ’nome_serie' (il carattere virgola fa da separatore), rispondendo alla richiesta con la stringa '​Disponibile' s​e l’episodio è presente nel sistema, o ​'ComingSoon’​se l’episodio o la serie richiesta non sono attualmente disponibili.
+Espone un servizio NetSixServer interrogabile tramite socket sulla porta ​3333,
+che risponde a messaggi nel formato "n​ome_serie,n” con cui un client può chiedere 
+se è disponibile l’episodio ’n’ della serie ’nome_serie' (il carattere virgola fa da separatore),
+rispondendo alla richiesta con la stringa '​Disponibile' s​e l’episodio è presente nel sistema,
+o ​'ComingSoon’​se l’episodio o la serie richiesta non sono attualmente disponibili.
 
-L’elenco delle 6 serie tv (popolabile a piacere) con il rispettivo numero di episodi, deve essere gestito in una classe separata chiamata ​ShowList,​ che ha al suo interno il metodo ​isAvailable(nome_serie,n)​ che verrà usato dal ​NetSixServer​ per sapere se l’episodio richiesto è disponibile o meno.
+L’elenco delle 6 serie tv (popolabile a piacere) con il rispettivo numero di episodi,
+deve essere gestito in una classe separata chiamata ​ShowList,​ che ha al suo interno 
+il metodo ​isAvailable(nome_serie,n)​ che verrà usato dal ​NetSixServer​ per sapere 
+se l’episodio richiesto è disponibile o meno.
 
 SHOWLIST:
 

@@ -1,5 +1,5 @@
 /* 
- * File:   hit.c
+ * File:   thread.c
  * Author: Giuseppe
  *
  */

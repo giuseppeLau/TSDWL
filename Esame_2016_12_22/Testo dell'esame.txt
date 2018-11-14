@@ -1,0 +1,29 @@
+Prova TPCD 22/12/2016
+
+N.B.: Consegnare tutti i file sorgente prodotti, denominati secondo lo schema: ​ server_A.c​ o
+      Server_A.java​, server_B.c​ o ​Server_B.java​...
+
+A. Realizzare un server (in linguaggio C o in Java) che si metta in ascolto sul port 3333​, sul quale
+   accetta richieste di connessione da un client.
+   Sulla connessione stabilita, il server riceve una stringa, terminata dal carattere '\n' (si supponga
+   che basti una sola operazione di lettura in ricezione da parte del server, per ricevere ciascuna
+   stringa inviata dal client).
+   Il server quindi scrive la stringa ricevuta sullo standard output e, chiusa la connessione, si 
+   rimette in attesa di eventuali richieste di connessione.
+   Testare il server server_A usando telnet.
+
+B. Conservando la versione (A) del server, realizzarne un’ulteriore versione tale che ciascuna
+   stringa ricevuta dal server, oltre ad essere scritta dal server sulla propria standard output, sia
+   inviata nuovamente al client come risposta (senza alcuna modifica).
+   Testare il ​server server_B usando telnet.
+
+C. Conservando la versione (B) del server, realizzarne un’ulteriore versione tale che il server
+   implementi un metodo/funzione inverti(s) che accetta per argomento una stringa ​ s e restituisce una stringa; 
+​   per il momento, ai fini di
+   questo quesito,​ si supponga che, per qualunque stringa argomento s, venga restituito ​s.
+   Testare il server ​server_C usando telnet.
+
+D. Modificare ​ inverti(s) in modo che restituisca la stringa argomento invertita (scambiando il
+   primo carattere con l’ultimo, il secondo col penultimo, etc.).
+
+E. (Opzionale) Realizzare un semplice client per testare i server creati ai punti precedenti.

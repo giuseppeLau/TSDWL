@@ -1,3 +1,9 @@
+/* 
+ * File:   server_D.java
+ * Author: Giuseppe
+ *
+ */
+
 import java.net.*;
 import java.io.*;
 
